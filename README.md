@@ -13,7 +13,6 @@ kaggle: https://www.kaggle.com/c/titanic
 
 1. ### EDA
  * 乘客存活比例、男女/年齡分布
-    圖
  * 存活情形與其他變數的相關性
  * 欄位缺值比例
  * 數值類變數的分布情形
@@ -32,8 +31,8 @@ kaggle: https://www.kaggle.com/c/titanic
   * Fare => 補訓練資料平均數
 
 3. ### 標準化、切割訓練/測試/驗證集
- * 以訓練資料為基準將所有欄未標準化
- * 切割: train set => 85%,valid  set => 15%
+ * 以訓練資料為基準將 PassengerId, Survived 以外其他欄位標準化
+ * 切割: train set => 85%, valid set => 15%
 
 4. ### 單一模型訓練、預測 (Grid search 找最佳參數)
  * Logistic
