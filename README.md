@@ -12,7 +12,7 @@ kaggle: https://www.kaggle.com/c/titanic
 
 -------
 
-## 内容
+## 内容（日本語 ver.）
 
 ### EDA
  * 生存状況分布
